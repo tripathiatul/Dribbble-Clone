@@ -114,6 +114,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:  10px;
     align-self: flex-start;
 }
 
@@ -319,11 +320,15 @@ li {
     padding: 5px 10px !important;
 
 }
+ul {
+    padding: 1rem !important;
+}
 
 .Browse
 {
     background-color: rgb(247, 242, 242);
     width: 15vw;
+    height: 55vh !important;
 }
 
 .filter {
@@ -480,6 +485,7 @@ li {
 .dropdown-menu {
     display: none;
     width: 30vw;
+    padding: 0 !important;
 }
 
 .abef {
@@ -823,6 +829,7 @@ select {
 
     .Browse {
         display: none !important;
+
     }
 
     .listdetails {
